@@ -1,0 +1,67 @@
+﻿Gene,Disease,MOI,SOP,Contribution,Classification,"Last Eval."
+TUBB2BHGNC:30829,"complex cortical dysplasia with other brain malformations  MONDO:0000904",AD,SOP7,Primary,Definitive,04/26/2020
+QARS1HGNC:9751,"diffuse cerebral and cerebellar atrophy - intractable seizures - progressive microcephaly syndrome  MONDO:0014335",AR,SOP7,Primary,Definitive,05/26/2020
+RAB3GAP1HGNC:17063,"Warburg micro syndrome  MONDO:0016649",AR,SOP7,Primary,Definitive,05/26/2020
+WDR62HGNC:24502,"microcephaly 2, primary, autosomal recessive, with or without cortical malformations  MONDO:0011435",AR,SOP7,Primary,Definitive,05/26/2020
+DCXHGNC:2714,"lissencephaly spectrum disorders  MONDO:0018838",XL,SOP8,Primary,Definitive,02/23/2021
+PIK3CAHGNC:8975,"overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes  MONDO:0100283",AD,SOP8,Primary,Definitive,07/29/2021
+MTORHGNC:3942,"overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes  MONDO:0100283",AD,SOP8,Primary,Definitive,07/29/2021
+AKT3HGNC:393,"overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes  MONDO:0100283",AD,SOP7,Primary,Definitive,07/29/2021
+PIK3R2HGNC:8980,"overgrowth syndrome and/or cerebral malformations due to abnormalities in MTOR pathway genes  MONDO:0100283",AD,SOP7,Primary,Definitive,07/29/2021
+AHI1HGNC:21575,"Joubert syndrome 3  MONDO:0012078",AR,SOP8,Primary,Definitive,10/26/2021
+KIF21AHGNC:19349,"congenital fibrosis of extraocular muscles  MONDO:0007614",AD,SOP8,Primary,Definitive,10/26/2021
+AKT3HGNC:393,"microcephaly  MONDO:0001149",AD,SOP8,Primary,Limited,10/26/2021
+ACTBHGNC:132,"Baraitser-Winter cerebrofrontofacial syndrome  MONDO:0017579",AD,SOP8,Primary,Definitive,10/26/2021
+NEDD4LHGNC:7728,"periventricular nodular heterotopia 7  MONDO:0014966",AD,SOP8,Primary,Definitive,11/30/2021
+CDK5RAP2HGNC:18672,"autosomal recessive primary microcephaly  MONDO:0016660",AR,SOP8,Primary,Definitive,01/25/2022
+KIF5CHGNC:6325,"complex cortical dysplasia with other brain malformations 2  MONDO:0014116",AD,SOP8,Primary,Moderate,01/25/2022
+PROK2HGNC:18455,"hypogonadotropic hypogonadism 4 with or without anosmia  MONDO:0012528",SD,SOP8,Primary,Definitive,03/22/2022
+PROKR2HGNC:15836,"hypogonadotropic hypogonadism 3 with or without anosmia  MONDO:0009482",AD,SOP8,Primary,Definitive,04/26/2022
+TUBG1HGNC:12417,"lissencephaly spectrum disorders  MONDO:0018838",AD,SOP8,Primary,Definitive,04/26/2022
+CEP152HGNC:29298,"microcephaly with or without short stature  MONDO:0100346",AR,SOP9,Primary,Definitive,06/28/2022
+DOCK6HGNC:19189,"Adams-Oliver syndrome  MONDO:0007034",AR,SOP9,Primary,Definitive,06/28/2022
+ROBO3HGNC:13433,"gaze palsy, familial horizontal, with progressive scoliosis 1  MONDO:0020790",AR,SOP9,Primary,Definitive,07/12/2022
+CHN1HGNC:1943,"Duane retraction syndrome 2  MONDO:0011444",AD,SOP10,Primary,Moderate,07/26/2022
+DCCHGNC:2701,"mirror movements 1 and/or agenesis of the corpus callosum  MONDO:0100515",AD,SOP9,Primary,Definitive,07/26/2022
+DISP1HGNC:19711,"holoprosencephaly  MONDO:0016296",AD,SOP9,Primary,Limited,09/27/2022
+APC2HGNC:24036,"lissencephaly spectrum disorders  MONDO:0018838",AR,SOP9,Primary,Strong,10/11/2022
+NFIAHGNC:7784,"brain malformations with or without urinary tract defects  MONDO:0100478",AD,SOP9,Primary,Definitive,10/11/2022
+GAS1HGNC:4165,"holoprosencephaly  MONDO:0016296",AD,SOP9,Primary,Limited,01/10/2023
+COL18A1HGNC:2195,"Knobloch syndrome 1  MONDO:0800167",AR,SOP9,Primary,Definitive,02/28/2023
+STILHGNC:10879,"autosomal recessive primary microcephaly  MONDO:0016660",AR,SOP9,Primary,Definitive,03/28/2023
+SMARCC1HGNC:11104,"SMARCC1-associated developmental dysgenesis syndrome  MONDO:0700123",AD,SOP9,Primary,Definitive,04/11/2023
+VLDLRHGNC:12698,"cerebellar ataxia, intellectual disability, and dysequilibrium syndrome 1  MONDO:0024542",AR,SOP9,Primary,Definitive,06/13/2023
+MACF1HGNC:13664,"lissencephaly spectrum disorder with complex brainstem malformation  MONDO:0100472",AD,SOP9,Primary,Moderate,07/25/2023
+KIFBPHGNC:23419,"Goldberg-Shprintzen syndrome  MONDO:0012280",AR,SOP9,Primary,Definitive,07/25/2023
+RXYLT1HGNC:13530,"muscle-eye-brain disease  MONDO:0018939",AR,SOP9,Primary,Definitive,07/28/2023
+ARFGEF2HGNC:15853,"periventricular heterotopia with microcephaly, autosomal recessive  MONDO:0011966",AR,SOP9,Primary,Definitive,09/12/2023
+CNOT1HGNC:7877,"holoprosencephaly 12 with or without pancreatic agenesis  MONDO:0032787",AD,SOP9,Primary,Limited,09/30/2023
+RAB18HGNC:14244,"Warburg micro syndrome  MONDO:0016649",AR,SOP9,Primary,Moderate,09/30/2023
+ADGRG1HGNC:4512,"bilateral frontoparietal polymicrogyria  MONDO:0011738",AR,SOP10,Primary,Definitive,10/24/2023
+RAB3GAP2HGNC:17168,"Warburg micro syndrome  MONDO:0016649",AR,SOP10,Primary,Definitive,11/28/2023
+RELNHGNC:9957,"lissencephaly with cerebellar hypoplasia  MONDO:0019450",AR,SOP10,Primary,Definitive,12/04/2023
+TUBA8HGNC:12410,"polymicrogyria with optic nerve hypoplasia  MONDO:0013172",AR,SOP10,Primary,Disputed,12/19/2023
+CENPEHGNC:1856,"autosomal recessive primary microcephaly  MONDO:0016660",AR,SOP10,Primary,Limited,12/19/2023
+COL4A1HGNC:2202,"COL4A1-related disorder  MONDO:0800461",AD,SOP10,Secondary,Definitive,02/12/2024
+KIF26AHGNC:20226,"complex cortical dysplasia with other brain malformations  MONDO:0000904",AR,SOP10,Primary,Strong,03/12/2024
+ASPMHGNC:19048,"autosomal recessive primary microcephaly  MONDO:0016660",AR,SOP10,Primary,Definitive,03/14/2024
+TUBA1AHGNC:20766,"tubulinopathy  MONDO:0100153",AD,SOP10,Primary,Definitive,03/25/2024
+CDK5HGNC:1774,"lissencephaly with cerebellar hypoplasia  MONDO:0019450",AR,SOP10,Primary,Moderate,04/29/2024
+ARF1HGNC:652,"periventricular nodular heterotopia  MONDO:0020341",AD,SOP10,Primary,Definitive,06/28/2024
+DCHS1HGNC:13681,"van Maldergem syndrome  MONDO:0017813",AR,SOP10,Primary,Moderate,07/02/2024
+DLL1HGNC:2908,"neurodevelopmental disorder with nonspecific brain abnormalities and with or without seizures  MONDO:0032877",AD,SOP10,Primary,Definitive,07/02/2024
+ERMARDHGNC:21056,"periventricular nodular heterotopia  MONDO:0020341",AD,SOP10,Primary,Limited,07/02/2024
+LARGE1HGNC:6511,"muscular dystrophy-dystroglycanopathy  MONDO:0018276",AR,SOP10,Primary,Definitive,07/02/2024
+MAP1BHGNC:6836,"periventricular nodular heterotopia  MONDO:0020341",AD,SOP10,Primary,Strong,07/09/2024
+CEP85LHGNC:21638,"lissencephaly 10  MONDO:0030031",AD,SOP11,Primary,Definitive,09/24/2024
+RTTNHGNC:18654,"microcephalic primordial dwarfism due to RTTN deficiency  MONDO:0018764",AR,SOP11,Primary,Definitive,10/24/2024
+NDE1HGNC:17619,"microcephaly with lissencephaly and/or hydranencephaly  MONDO:0700116",AR,SOP11,Primary,Definitive,12/10/2024
+ACTA2HGNC:130,"multisystemic smooth muscle dysfunction syndrome  MONDO:0013452",AD,SOP11,Secondary,Definitive,01/24/2025
+FAT4HGNC:23109,"FAT4-related neurodevelopmental disorder  MONDO:0100603",AR,SOP11,Secondary,Definitive,02/20/2025
+TBCEHGNC:11582,"encephalopathy, progressive, with amyotrophy and optic atrophy  MONDO:0014968",AR,SOP11,Primary,Moderate,02/25/2025
+TBCDHGNC:11581,"early-onset progressive diffuse brain atrophy-microcephaly-muscle weakness-optic atrophy syndrome  MONDO:0044646",AR,SOP11,Primary,Definitive,03/13/2025
+CCND2HGNC:1583,"megalencephaly-polymicrogyria-polydactyly-hydrocephalus syndrome 3  MONDO:0014408",AD,SOP11,Primary,Definitive,05/27/2025
+EML1HGNC:3330,"band heterotopia of brain  MONDO:0010873",AR,SOP11,Primary,Definitive,05/27/2025
+B4GAT1HGNC:15685,"muscular dystrophy-dystroglycanopathy (congenital with brain and eye anomalies), type A13  MONDO:0014120",AR,SOP11,Primary,Moderate,07/08/2025
+FOXA2HGNC:5022,"combined pituitary hormone deficiencies, genetic form  MONDO:0013099",AD,SOP11,Primary,Moderate,10/08/2025
+,,,,,,
