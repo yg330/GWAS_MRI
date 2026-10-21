@@ -1,5 +1,76 @@
-Arthour: Yuanjun Gu
+Author: Yuanjun Gu
 Created time: 17/06/2024
+
+
+# Polygenic hierarchies of macroscale brain structural organisation: analysis code
+
+Code and small input/intermediate data for the main figures and supplementary analyses of
+"Polygenic hierarchies of macroscale brain structural organisation".
+
+Related repositories:
+- Imaging phenotype generation (parcellation of cortical measures): https://github.com/ucam-department-of-psychiatry/UKB
+- GWAS, LDSC, HyPrColoc, FLAMES and MAGMA were run outside this repository with their standard tools; their outputs are the inputs here.
+
+<!-- Add the journal-required statement on AI-assisted code development here, if applicable. -->
+
+## How to run
+
+1. Clone the repository and `setwd()` to its root (or set the environment variable `GWAS_MRI_DIR`).
+2. Install the packages in `R_packages.txt`.
+3. Run a script from the root, e.g. `source("scripts/02_genetic_clustering/Final_Figure2_script.R")`.
+
+Every script starts with `source("config.R")`, which defines `proj_dir`. Inputs are read from `Data/`, results are
+written to `Outputs/`. Some scripts are slow (spin tests use 10,000 rotations; enrichment models use permutations)
+and a few need data that is too large for GitHub (see `DATA.md`).
+
+## Scripts and manuscript items
+
+| Script | Manuscript item |
+|---|---|
+| `01_genome_wide_results/Final_Figure1_script.R` | Figure 1 |
+| `02_genetic_clustering/Final_Figure2_script.R` | Figure 2 |
+| `02_genetic_clustering/Final_leiden_searchscript.R` | Figure 2: Leiden clustering across random seeds |
+| `02_genetic_clustering/Standalone_UMAP_parametersweepscript.R` | Figure 2: UMAP n_neighbors / min_dist sweep |
+| `02_genetic_clustering/Supplementary_FIgure1script.R` | Supplementary Figure 2 (clustering after pruning correlated IDPs) |
+| `02_genetic_clustering/Final_extendedFigure3_script.R` | Supplementary Figure 4A, Extended Data Figure 4B-C |
+| `03_genes_celltypes_GO/Final_Figure4_script.R` | Figure 3 and Supplementary Figure 5 (FLAMES genes, cell types, GO, family similarity) |
+| `03_genes_celltypes_GO/Siletti_FLAMES_enrichment.R` | Supplementary Figure 6 (adult brain cell types) |
+| `03_genes_celltypes_GO/Final_Figure5_TFenrichement_script.R` | Supplementary Figure 7 (TF / eRegulon analyses) |
+| `03_genes_celltypes_GO/emVAR_FLAMES_geneprioritisationcomparison.R` | Results: emVar / ABC concordance with FLAMES |
+| `03_genes_celltypes_GO/FLAMES_paneloverlap.R` | Results: clinical gene panels |
+| `04_cortical_gPCs/Final_ExtDataFig4_PCA_master.R` | Figure 4, Supplementary Tables 8-10 (gPCs, spin tests) |
+| `04_cortical_gPCs/Final_ExtDataFig5_assembly.R` | Figure 4, Supplementary Figure 8 |
+| `04_cortical_gPCs/Final_SuppFig9_median_PC_correspondence.R` | Supplementary Figure 9 |
+| `05_arealisation/Final_Figure6_arealizationscript.R` | Figure 5 pipeline and Supplementary Tables 10-13 |
+| `05_arealisation/Final_Figure6_full_and_GRNsupp.R` | Figure 5 (final layout), Supplementary Figure 10 |
+| `05_arealisation/Arealisation_leadSNP_LD_check.R` | Lead SNP per arealisation gene (needs `LDLINK_TOKEN`) |
+| `05_arealisation/Arealisation_Script2_by_measure.R` | Extracts lead-SNP betas across parcels (cluster; set `SUMSTAT_DIR`) |
+| `05_arealisation/Arealisation_beta_hitparcel_validation.R` | Beta QC: Wilcoxon and distance-decay spin test |
+| `06_novel_loci/*` | Comparison with previously reported loci (liftover, positions, PLINK2 clumping) |
+
+Some script names reflect earlier figure numbering (for example `Final_Figure4_script.R` produces Figure 3 and
+`Final_Figure6_*` produce Figure 5). The header of each script says which item it feeds.
+
+## Order of use
+
+1. Clustering scripts need only `Data/rg_matrix.rds`.
+2. `Final_Figure4_script.R` builds the FLAMES figure from `Data/FLAMES_gene_prioritisation_results.txt`.
+3. `Final_Figure6_arealizationscript.R` builds the arealisation tables first; the lead-SNP, beta extraction and
+   validation scripts then extend them (the extraction step runs on the cluster).
+4. `Final_ExtDataFig4_PCA_master.R` first, then `Final_ExtDataFig5_assembly.R` and the supplements.
+
+Intermediate tables that later steps read are included under `Outputs/` so each stage can be run on its own.
+
+## Things to know
+
+- `Data/FLAMES_gene_prioritisation_results.txt` is Supplementary Table 4 with the column names the scripts expect.
+- `Data/rg_matrix.rds` is the 2,326 x 2,326 LDSC genetic correlation matrix.
+- Some retained scripts still contain sensitivity branches that exclude a set of phenotypes ("outliers"); the
+  manuscript does not report these.
+- Not in this repository: the LDSC, HyPrColoc (Supplementary Figure 3) and FLAMES runs themselves, and a single
+  script from PLINK clumps to the final novel-locus counts.
+- Figure 1C is computed from `Data/UKB_sig_info.txt` without a significance filter, so it reports genome-wide
+  (P <= 5e-8) concordance; the experiment-wide concordance quoted in the text uses P <= 4.65e-11.
 
 Important Folder Description:
 
